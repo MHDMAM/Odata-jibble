@@ -1,0 +1,9 @@
+{
+	"logsPath": "/app/projectName",
+	"Trippin": {
+		"key": "(S(1yzwnucxqazyb432gfnxzpcf))",
+		"People": {
+			"baseURL": "https://services.odata.org/TripPinRESTierService/<%= key %>/People"
+		}
+	}
+}

@@ -1,0 +1,25 @@
+{
+  "db": {
+    "user": "",
+    "password": "",
+    "server": "",
+    "database": "",
+
+    "driver": "tedious",
+    "requestTimeout": 15000,
+    "connectionTimeout": 5000,
+    "options": {
+      "encrypt": false,
+      "enableArithAbort": true
+    },
+    "pool": {
+      "max": 300,
+      "min": 10,
+      "idleTimeoutMillis": 30000
+    }
+  },
+  "certs": {
+    "key": "path to key.pem",
+    "cert": "path to cert.pem"
+  }
+}
